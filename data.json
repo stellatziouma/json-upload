@@ -240,12 +240,12 @@
     }
   ],
   "loyaltySettings": {
-    "alphaBankBonusEnabled": true,
+    "alphaBankBonusEnabled": false,
     "alphaBankBonusVTid": "71000833",
     "alphaBankBonusVMid": "0021701727",
     "useAlphaBankBonusBRAmount": false,
     "useAlphaBankBonusWithoutOffers": false,
-    "eurobankEuroepistrofiEnabled": false,
+    "eurobankEuroepistrofiEnabled": true,
     "eurobankEuroepistrofiVTid": "71000833",
     "eurobankEuroepistrofiVMid": "0021701727",
     "eurobankEuroepistrofiUploadFullRedemption": true,
