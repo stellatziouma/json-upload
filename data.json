@@ -13,7 +13,8 @@
     "terminalID": "71000453",
     "customerID": "00000000000001",
     "acqIndetifier": "",
-    "acqName": ""
+    "acqName": "",
+    "theme": "BankA"
   },
   "multiAcq": {
     "acquirers": [
