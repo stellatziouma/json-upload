@@ -12,8 +12,8 @@
     "merchantID": "0101118297",
     "terminalID": "71000453",
     "customerID": "00000000000001",
-    "acqIndetifier": "",
-    "acqName": "",
+    "acqIndetifier": "014",
+    "acqName": "ALPHA BANK",
     "theme": "Bank A"
   },
   "multiAcq": {
@@ -22,7 +22,7 @@
         "acqIndetifier": "014",
         "acqName": "ALPHA BANK",
         "allowLocal": true,
-        "allowRefund": true,
+        "allowRefund": false,
         "allowKeyEntry": false,
         "allowMoto": false
       },
