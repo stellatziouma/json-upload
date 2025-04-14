@@ -13,8 +13,7 @@
     "terminalID": "71000453",
     "customerID": "00000000000001",
     "acqIndetifier": "",
-    "acqName": "",
-    "theme": "Bank A"
+    "acqName": ""
   },
   "multiAcq": {
     "acquirers": [
@@ -24,7 +23,8 @@
         "allowLocal": false,
         "allowRefund": false,
         "allowKeyEntry": false,
-        "allowMoto": false
+        "allowMoto": false,
+        "acqTheme" : "corn"
       },
       {
         "acqIndetifier": "026",
