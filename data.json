@@ -150,7 +150,7 @@
       "acquirerBankNameAsBIDSetting": false,
       "barcodeSetting": "01",
       "customLogo": "https://mpos.cardlink.gr/files/android/resources/receipts/sklavenitis_logo.png",
-      "dualLogoPrint": false,
+      "dualLogoPrint": true,
       "cardlinkLogoOnTop": true,
       "asfalistikosgoneasPromoMessage": "ΕΞΟΦΛΗΣΤΕ ΤΑ ΑΣΦΑΛΙΣΤΡΑ ΣΑΣ ΜΕ ΠΙΣΤΩΤΙΚΗ ΚΑΡΤΑ ΚΑΙ ΚΕΡΔΙΣΤΕ ΕΚΠΤΩΣΗ ΕΩΣ ΚΑΙ 10% ΕΝΗΜΕΡΩΘΕΙΤΕ ΣΤΟ 210 8119670"
     }
