@@ -18,48 +18,8 @@
   "multiAcq": {
     "acquirers": [
       {
-        "acqIndetifier": "014",
-        "acqName": "ALPHA BANK",
-        "allowLocal": false,
-        "allowRefund": false,
-        "allowKeyEntry": false,
-        "allowMoto": false
-      },
-      {
         "acqIndetifier": "026",
         "acqName": "EURO BANK",
-        "allowLocal": true,
-        "allowRefund": true,
-        "allowKeyEntry": true,
-        "allowMoto": true
-      },
-      {
-        "acqIndetifier": "011",
-        "acqName": "NBG",
-        "allowLocal": true,
-        "allowRefund": true,
-        "allowKeyEntry": false,
-        "allowMoto": false
-      },
-      {
-        "acqIndetifier": "887",
-        "acqName": "CARDLINK ONE",
-        "allowLocal": true,
-        "allowRefund": true,
-        "allowKeyEntry": true,
-        "allowMoto": true
-      },
-      {
-        "acqIndetifier": "017",
-        "acqName": "Piraeus",
-        "allowLocal": true,
-        "allowRefund": true,
-        "allowKeyEntry": true,
-        "allowMoto": true
-      },
-      {
-        "acqIndetifier": "016",
-        "acqName": "Attica",
         "allowLocal": true,
         "allowRefund": true,
         "allowKeyEntry": true,
@@ -74,12 +34,12 @@
     "isAllowSalesPayment": true,
     "isAllowVoidPayment": true,
     "isAllowRefundPayment": true,
-    "isAllowMotoPayment": true
+    "isAllowMotoPayment": false
   },
   "applicationSettings": {
     "sdkLink": 1,
     "useMastercardNewBrand": true,
-    "supportKeyEntry": true,
+    "supportKeyEntry": false,
     "supportInstallments": false,
     "supportTIP": false,
     "useBenakiTheme": false,
@@ -88,15 +48,15 @@
     "autoReactivationTimer": "180",
     "useAutoCloseBatch": true,
     "useAutoCloseBatchTimer": "22:05",
-    "useAutoParams": false,
+    "useAutoParams": true,
     "useAutoParamsTimer": "21:45",
-    "alphaBankDCCSupport": true,
+    "alphaBankDCCSupport": false,
     "alphaBankDCCProfileId": "19011",
     "alphaBankDCCPartnerId": "9011",
     "alphaBankDCCMerchantNumber": "123419011",
     "alphaBankDCCMinimumAmount": 100,
     "euroBankDCCSupport": false,
-    "nbgAppSelectionEnabled": false,
+    "nbgAppSelectionEnabled": true,
     "nbgAppSelectionAcquirerBankId": "011",
     "ishceSelectionEnabled": false,
     "ishceSelectionAcquirerBankId": "011",
@@ -130,8 +90,8 @@
       ]
     },
     "refundValidationEnabled": false,
-    "localSaleEnabled": true,
-    "isManualAcquirerSelection": true,
+    "localSaleEnabled": false,
+    "isManualAcquirerSelection": false,
     "preAuthEnabled": true,
     "unattendedMode": true,
     "slaveDeviceEnabled": false,
@@ -240,29 +200,29 @@
     }
   ],
   "loyaltySettings": {
-    "alphaBankBonusEnabled": true,
+    "alphaBankBonusEnabled": false,
     "alphaBankBonusVTid": "71000833",
     "alphaBankBonusVMid": "0021701727",
     "useAlphaBankBonusBRAmount": false,
     "useAlphaBankBonusWithoutOffers": false,
-    "eurobankEuroepistrofiEnabled": true,
+    "eurobankEuroepistrofiEnabled": false,
     "eurobankEuroepistrofiVTid": "71000833",
     "eurobankEuroepistrofiVMid": "0021701727",
     "eurobankEuroepistrofiUploadFullRedemption": false,
-    "nbgGo4MoreEnabled": true,
+    "nbgGo4MoreEnabled": false,
     "nbgGo4MoreVTid": "33015845",
     "nbgGo4MoreVMid": "3166741",
-    "pbgYellowEnabled": true,
+    "pbgYellowEnabled": false,
     "pbgYellowVTid": "03974427",
     "pbgYellowVMid": "140974429",
     "pbgYellowPointsToRedeem": "2000",
-    "sklavenitisPrepaidEnabled": true,
-    "asfalistikosgoneasEnabled": true,
-    "asfalistikosgoneasForceOnline": true,
+    "sklavenitisPrepaidEnabled": false,
+    "asfalistikosgoneasEnabled": false,
+    "asfalistikosgoneasForceOnline": false,
     "cardlinkLoyaltyEnabled": false
   },
   "ecrSettings" : {
-    "ecrSystem" : true,
+    "ecrSystem" : false,
     "ecrSystemDefaultPort" : 4000,
     "ecrSystemMode" : 0,
     "ecrSystemProtocol" : 0,
