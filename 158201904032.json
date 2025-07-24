@@ -854,7 +854,7 @@
     },
     "contactless": {
       "applicationIDSConfiguration": [
-        {
+         {
           "aidName": "MASTERCARD",
           "aid": "A0000000041010",
           "partialAidSelection": "1",
@@ -889,23 +889,27 @@
           "contactRandomTransactionSelect": "1",
           "velocityCheck": "1",
           "thresholdValueInRandomSelection": "0",
-          "alphabankDccBelowCvmLimit": false,
+          "alphabankDccBelowCvmLimit": true,
           "alphaBankDCCDisclaimer": [
-            "I HAVE BEEN OFFERED A CHOICE OF",
-            "CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-            "THE EXCHANGE RATE IS BASED ON LATEST",
-            "ECB RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION",
-            "FEE %feePercent%%. THIS SERVICE IS PROVIDED BY",
-            "CARDLINK IN ASSOCIATION WITH PLANET."
+            "I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
+            "MY CHOICE OF CURRENCY IS FINAL.",
+            "THE EXCHANGE RATE IS BASED ON",
+            "FINTRAX INCLUDING AN INTERNATION",
+            "CONVERSION FEE OF %feePercent%%",
+            "THIS SERVICE IS PROVIDED BY CARDLINK",
+            "IN ASSOCIATION WITH FINTRAX."
           ],
-          "eurobankDccBelowCvmLimit": false,
+          "eurobankDccBelowCvmLimit": true,
           "eurobankDCCDisclaimer": [
-            "I HAVE BEEN OFFERED A CHOICE OF",
-            "CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-            "THE EXCHANGE RATE IS BASED ON LATEST",
-            "ECB RATE AS OF %conversionRateDay%/%conversionRateMonth%",
-            "PLUS A CONVERSION FEE.",
-            "THIS SERVICE IS PROVIDED BY WORLDLINE."
+            "I HAVE CHOSEN NOT TO USE THE MASTERCARD",
+            "CURRENCY CONVERSION PROCESS AND I WILL",
+            "HAVE NO RECOURSE AGAINST MASTERCARD",
+            "CONCERNING THE CURRENCY CONVERSION",
+            "OR ITS DISCLOSURE. THE EXCHANGE RATE",
+            "IS BASED ON EUROBANK WHOLESALE RATE",
+            "AS OF %conversionRateDay%/%conversionRateMonth% PLUS AN INTERNATIONAL",
+            "CONVERSION FEE OF %fee% %dccCurrencyName%.",
+            "THIS SERVICE IS PROVIDED BY EUROBANK"
           ]
         },
         {
@@ -945,21 +949,25 @@
           "thresholdValueInRandomSelection": "0",
           "alphabankDccBelowCvmLimit": true,
           "alphaBankDCCDisclaimer": [
-            "I HAVE BEEN OFFERED A CHOICE OF",
-            "CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-            "THE EXCHANGE RATE IS BASED ON LATEST",
-            "ECB RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION",
-            "FEE %feePercent%%. THIS SERVICE IS PROVIDED BY",
-            "CARDLINK IN ASSOCIATION WITH PLANET."
+            "I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
+            "MY CHOICE OF CURRENCY IS FINAL.",
+            "THE EXCHANGE RATE IS BASED ON",
+            "FINTRAX INCLUDING AN INTERNATION",
+            "CONVERSION FEE OF %feePercent%%",
+            "THIS SERVICE IS PROVIDED BY CARDLINK",
+            "IN ASSOCIATION WITH FINTRAX."
           ],
           "eurobankDccBelowCvmLimit": true,
           "eurobankDCCDisclaimer": [
-            "I HAVE BEEN OFFERED A CHOICE OF",
-            "CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-            "THE EXCHANGE RATE IS BASED ON LATEST",
-            "ECB RATE AS OF %conversionRateDay%/%conversionRateMonth%",
-            "PLUS A CONVERSION FEE.",
-            "THIS SERVICE IS PROVIDED BY WORLDLINE."
+            "I HAVE CHOSEN NOT TO USE THE MASTERCARD",
+            "CURRENCY CONVERSION PROCESS AND I WILL",
+            "HAVE NO RECOURSE AGAINST MASTERCARD",
+            "CONCERNING THE CURRENCY CONVERSION",
+            "OR ITS DISCLOSURE. THE EXCHANGE RATE",
+            "IS BASED ON EUROBANK WHOLESALE RATE",
+            "AS OF %conversionRateDay%/%conversionRateMonth% PLUS AN INTERNATIONAL",
+            "CONVERSION FEE OF %fee% %dccCurrencyName%.",
+            "THIS SERVICE IS PROVIDED BY EUROBANK"
           ]
         },
         {
@@ -981,11 +989,11 @@
           "terminalTransactionQualifier": "36204000",
           "terminalTransactionQualifierCashback": "36004000",
           "terminalTransactionQualifierCash": "36004000",
-          "terminalTransactionQualifierRefund": "36A04000",
-          "ctlsTACOnline": "0000000000",
-          "ctlsTACDefault": "0000000000",
-          "ctlsTACDenial": "0000000000",
-          "contactTACOnline": "DC4004F800",
+          "terminalTransactionQualifier": "36204000",
+          "ctlsTACDefault": "DC4000A800",
+          "ctlsTACOnline": "DC4004F800",
+          "ctlsTACDenial": "0010000000",
+          "additionalTerminalCapabilities": "c000f0a001",
           "contactTACDefault": "DC4000A800",
           "contactTACDenial": "0010000000",
           "defaultTDOL": "9F0802",
@@ -999,21 +1007,23 @@
           "thresholdValueInRandomSelection": "0",
           "alphabankDccBelowCvmLimit": true,
           "alphaBankDCCDisclaimer": [
-            "I HAVE BEEN OFFERED A CHOICE OF",
-            "CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-            "THE EXCHANGE RATE IS BASED ON LATEST",
-            "ECB RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION",
-            "FEE %feePercent%%. THIS SERVICE IS PROVIDED BY",
-            "CARDLINK IN ASSOCIATION WITH PLANET."
+            "I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
+            "MY CHOICE OF CURRENCY IS FINAL.",
+            "THE EXCHANGE RATE IS BASED ON",
+            "FINTRAX INCLUDING AN INTERNATION",
+            "CONVERSION FEE OF %feePercent%%",
+            "THIS SERVICE IS PROVIDED BY CARDLINK",
+            "IN ASSOCIATION WITH FINTRAX."
           ],
           "eurobankDccBelowCvmLimit": true,
           "eurobankDCCDisclaimer": [
-            "I HAVE BEEN OFFERED A CHOICE OF",
-            "CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-            "THE EXCHANGE RATE IS BASED ON LATEST",
-            "ECB RATE AS OF %conversionRateDay%/%conversionRateMonth%",
-            "PLUS A CONVERSION FEE.",
-            "THIS SERVICE IS PROVIDED BY WORLDLINE."
+            "I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
+            "MY CHOICE OF CURRENCY IS FINAL.",
+            "THE EXCHANGE RATE IS BASED ON",
+            "EUROBANK WHOLESALERATE AS OF %conversionRateDay%/%conversionRateMonth%",
+            "PLUS AN INTERNATIONAL CONVERSION FEE",
+            "OF %fee% %dccCurrencyName%. THIS SERVICE IS",
+            "PROVIDED BY EUROBANK"
           ]
         },
         {
