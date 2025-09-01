@@ -24,7 +24,8 @@
         "allowRefund": false,
         "allowKeyEntry": false,
         "allowMoto": false,
-        "acqTheme": "benaki"
+        "acqTheme": "benaki",
+        "allowIris": true
       },
       {
         "acqIndetifier": "026",
@@ -1934,6 +1935,7 @@
     }
   }
 }
+
 
 
 
