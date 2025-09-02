@@ -24,7 +24,7 @@
         "allowRefund": false,
         "allowKeyEntry": false,
         "allowMoto": false,
-        "acqTheme": "unattended",
+        "acqTheme": "possible",
         "allowIris": true
       },
       {
@@ -135,7 +135,7 @@
     "localSaleEnabled": true,
     "isManualAcquirerSelection": false,
     "preAuthEnabled": true,
-    "unattendedMode": false,
+    "unattendedMode": true,
     "slaveDeviceEnabled": false,
     "mdbManagerEnabled": false,
     "mdbCreditsAvailable": 0,
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
