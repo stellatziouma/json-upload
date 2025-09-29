@@ -24,7 +24,7 @@
         "allowRefund": false,
         "allowKeyEntry": false,
         "allowMoto": false,
-        "acqTheme": "possible",
+        "acqTheme": "mcdonalds",
         "allowIris": true
       },
       {
@@ -135,8 +135,8 @@
     "localSaleEnabled": true,
     "isManualAcquirerSelection": false,
     "preAuthEnabled": true,
-    "unattendedMode": false,
-    "slaveDeviceEnabled": false,
+    "unattendedMode": true,
+    "slaveDeviceEnabled": true,
     "mdbManagerEnabled": false,
     "mdbCreditsAvailable": 0,
     "mdbCreditsLimitAvailable": 0,
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
