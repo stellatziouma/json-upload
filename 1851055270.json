@@ -39,7 +39,7 @@
         "acqIndetifier": "011",
         "acqName": "NBG",
         "allowLocal": true,
-        "allowRefund": true,
+        "allowRefund": false,
         "allowKeyEntry": false,
         "allowMoto": false
       },
@@ -47,7 +47,7 @@
         "acqIndetifier": "887",
         "acqName": "CARDLINK ONE",
         "allowLocal": true,
-        "allowRefund": true,
+        "allowRefund": false,
         "allowKeyEntry": true,
         "allowMoto": true
       },
@@ -55,7 +55,7 @@
         "acqIndetifier": "017",
         "acqName": "Piraeus",
         "allowLocal": true,
-        "allowRefund": true,
+        "allowRefund": false,
         "allowKeyEntry": true,
         "allowMoto": true
       },
@@ -63,7 +63,7 @@
         "acqIndetifier": "016",
         "acqName": "Attica",
         "allowLocal": true,
-        "allowRefund": true,
+        "allowRefund": false,
         "allowKeyEntry": true,
         "allowMoto": true
       }
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
