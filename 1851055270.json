@@ -18,6 +18,15 @@
   "multiAcq": {
     "acquirers": [
       {
+        "acqIndetifier": "026",
+        "acqName": "EURO BANK",
+        "allowLocal": true,
+        "allowRefund": true,
+        "allowKeyEntry": true,
+        "allowMoto": true,
+        "allowIris": true
+      },
+      {
         "acqIndetifier": "014",
         "acqName": "ALPHA BANK",
         "allowLocal": false,
@@ -25,15 +34,6 @@
         "allowKeyEntry": false,
         "allowMoto": false,
         "acqTheme": "mcdonalds",
-        "allowIris": true
-      },
-      {
-        "acqIndetifier": "026",
-        "acqName": "EURO BANK",
-        "allowLocal": true,
-        "allowRefund": true,
-        "allowKeyEntry": true,
-        "allowMoto": true
       },
       {
         "acqIndetifier": "011",
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
