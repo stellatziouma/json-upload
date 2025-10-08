@@ -24,7 +24,8 @@
         "allowRefund": true,
         "allowKeyEntry": true,
         "allowMoto": true,
-        "allowIris": true
+        "allowIris": true,
+        "acqTheme": "mcdonalds"
       },
       {
         "acqIndetifier": "014",
@@ -32,8 +33,7 @@
         "allowLocal": false,
         "allowRefund": false,
         "allowKeyEntry": false,
-        "allowMoto": false,
-        "acqTheme": "mcdonalds"
+        "allowMoto": false
       },
       {
         "acqIndetifier": "011",
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
