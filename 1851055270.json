@@ -25,7 +25,7 @@
         "allowKeyEntry": true,
         "allowMoto": true,
         "allowIris": true,
-        "acqTheme": "mint"
+        "acqTheme": "unattended_possible"
       },
       {
         "acqIndetifier": "014",
@@ -135,8 +135,8 @@
     "localSaleEnabled": true,
     "isManualAcquirerSelection": false,
     "preAuthEnabled": true,
-    "unattendedMode": false,
-    "slaveDeviceEnabled": false,
+    "unattendedMode": true,
+    "slaveDeviceEnabled": true,
     "mdbManagerEnabled": false,
     "mdbCreditsAvailable": 0,
     "mdbCreditsLimitAvailable": 0,
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
