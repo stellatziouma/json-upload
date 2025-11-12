@@ -31,7 +31,7 @@
         "acqIndetifier": "014",
         "acqName": "ALPHA BANK",
         "allowLocal": false,
-        "allowRefund": false,
+        "allowRefund": true,
         "allowKeyEntry": false,
         "allowMoto": false
       },
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
