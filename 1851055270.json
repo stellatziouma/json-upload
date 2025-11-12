@@ -21,7 +21,7 @@
         "acqIndetifier": "026",
         "acqName": "EURO BANK",
         "allowLocal": true,
-        "allowRefund": true,
+        "allowRefund": false,
         "allowKeyEntry": true,
         "allowMoto": true,
         "allowIris": true,
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
