@@ -25,7 +25,7 @@
         "allowKeyEntry": true,
         "allowMoto": true,
         "allowIris": true,
-        "acqTheme": "McDonalds"
+        "acqTheme": "mcdonalds"
       },
       {
         "acqIndetifier": "014",
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
