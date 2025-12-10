@@ -135,7 +135,7 @@
     "localSaleEnabled": true,
     "isManualAcquirerSelection": false,
     "preAuthEnabled": false,
-    "unattendedMode": false,
+    "unattendedMode": true,
     "slaveDeviceEnabled": false,
     "mdbManagerEnabled": false,
     "mdbCreditsAvailable": 0,
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
