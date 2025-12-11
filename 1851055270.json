@@ -18,6 +18,14 @@
   "multiAcq": {
     "acquirers": [
       {
+        "acqIndetifier": "014",
+        "acqName": "ALPHA BANK",
+        "allowLocal": false,
+        "allowRefund": true,
+        "allowKeyEntry": false,
+        "allowMoto": false
+      },
+      {
         "acqIndetifier": "026",
         "acqName": "EURO BANK",
         "allowLocal": true,
@@ -26,14 +34,6 @@
         "allowMoto": true,
         "allowIris": true,
         "acqTheme": "mint"
-      },
-      {
-        "acqIndetifier": "014",
-        "acqName": "ALPHA BANK",
-        "allowLocal": false,
-        "allowRefund": true,
-        "allowKeyEntry": false,
-        "allowMoto": false
       },
       {
         "acqIndetifier": "011",
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
