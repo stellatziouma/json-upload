@@ -134,7 +134,7 @@
     "refundValidationEnabled": false,
     "localSaleEnabled": true,
     "isManualAcquirerSelection": true,
-    "preAuthEnabled": false,
+    "preAuthEnabled": true,
     "unattendedMode": false,
     "slaveDeviceEnabled": false,
     "mdbManagerEnabled": false,
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
