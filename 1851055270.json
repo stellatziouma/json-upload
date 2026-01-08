@@ -65,7 +65,8 @@
         "allowLocal": true,
         "allowRefund": false,
         "allowKeyEntry": true,
-        "allowMoto": true
+        "allowMoto": true,
+        "allowIris": true
       }
     ]
   },
@@ -1935,6 +1936,7 @@
     }
   }
 }
+
 
 
 
