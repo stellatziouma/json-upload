@@ -24,7 +24,7 @@
         "allowRefund": true,
         "allowKeyEntry": false,
         "allowMoto": false,
-        "acqTheme": "mint"
+        "acqTheme": "vodafone"
       },
       {
         "acqIndetifier": "026",
@@ -1936,6 +1936,7 @@
     }
   }
 }
+
 
 
 
