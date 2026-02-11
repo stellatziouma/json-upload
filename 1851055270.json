@@ -150,7 +150,7 @@
     "receiptSettings": {
       "showEmvDataInReceipt": false,
       "acquirerBankNameAsBIDSetting": false,
-      "barcodeSetting": "01",
+      "barcodeSetting": "02",
       "customLogo": "https://mpos.cardlink.gr/files/android/resources/receipts/sklavenitis_logo.png",
       "dualLogoPrint": true,
       "cardlinkLogoOnTop": true,
@@ -1935,6 +1935,7 @@
     }
   }
 }
+
 
 
 
