@@ -279,6 +279,7 @@
     "merchantNameEn": "",
     "dctOnlineFlag": "",
     "referenceCodeCashRegisterTransaction": "",
+    "onlyBillingPaymentNG": true
     "customerMobilePhone": "",
     "callerName": "",
     "codeME": ""
@@ -1935,6 +1936,7 @@
     }
   }
 }
+
 
 
 
