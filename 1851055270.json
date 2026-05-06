@@ -98,7 +98,7 @@
     "alphaBankDCCPartnerId": "9011",
     "alphaBankDCCMerchantNumber": "123419011",
     "alphaBankDCCMinimumAmount": 100,
-    "euroBankDCCSupport": false,
+    "euroBankDCCSupport": true,
     "nbgAppSelectionEnabled": true,
     "nbgAppSelectionAcquirerBankId": "011",
     "ishceSelectionEnabled": false,
