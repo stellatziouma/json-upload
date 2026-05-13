@@ -237,7 +237,7 @@
     "merchantNameEn": "",
     "dctOnlineFlag": "",
     "referenceCodeCashRegisterTransaction": "",
-    "onlyBillingPaymentNG": false
+    "onlyBillingPaymentNG": false,
     "customerMobilePhone": "",
     "callerName": "",
     "codeME": ""
