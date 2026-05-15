@@ -33,7 +33,8 @@
         "allowRefund": true,
         "allowKeyEntry": true,
         "allowMoto": true,
-        "allowIris": true
+        "allowIris": true,
+        "cancelPreauthTime": 30
       },
       {
         "acqIndetifier": "011",
@@ -41,7 +42,8 @@
         "allowLocal": true,
         "allowRefund": false,
         "allowKeyEntry": false,
-        "allowMoto": false
+        "allowMoto": false,
+        "cancelPreauthTime": 30
       },
       {
         "acqIndetifier": "887",
