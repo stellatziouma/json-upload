@@ -12,8 +12,8 @@
     "merchantID": "0101118297",
     "terminalID": "71000453",
     "customerID": "00000000000001",
-    "acqIndetifier": "887",
-    "acqName": "CARDLINK ONE"
+    "acqIndetifier": "",
+    "acqName": ""
   },
   "multiAcq": {
     "acquirers": [
@@ -134,7 +134,7 @@
     },
     "refundValidationEnabled": false,
     "localSaleEnabled": true,
-    "isManualAcquirerSelection": false,
+    "isManualAcquirerSelection": true,
     "preAuthEnabled": true,
     "unattendedMode": false,
     "slaveDeviceEnabled": false,
