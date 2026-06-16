@@ -94,7 +94,7 @@
     "useAutoCloseBatch": true,
     "useAutoCloseBatchTimer": "22:05",
     "useAutoParams": true,
-    "useAutoParamsTimer": "11:50",
+    "useAutoParamsTimer": "11:30",
     "alphaBankDCCSupport": true,
     "alphaBankDCCProfileId": "19011",
     "alphaBankDCCPartnerId": "9011",
@@ -149,7 +149,7 @@
     "freeCompletionEnabled": true,
     "supportPleaseCallMeEnabled": true,
     "supportOrderThermalRollEnabled": true,
-    "defaultLanguage": "el",
+    "defaultLanguage": "en",
     "receiptSettings": {
       "showEmvDataInReceipt": false,
       "acquirerBankNameAsBIDSetting": false,
