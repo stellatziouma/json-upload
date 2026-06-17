@@ -40,9 +40,9 @@
         "acqIndetifier": "011",
         "acqName": "NBG",
         "allowLocal": true,
-        "allowRefund": false,
-        "allowKeyEntry": false,
-        "allowMoto": false,
+        "allowRefund": true,
+        "allowKeyEntry": true,
+        "allowMoto": true,
         "cancelPreauthTime": 30
       },
       {
