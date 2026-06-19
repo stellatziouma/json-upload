@@ -24,7 +24,7 @@
         "allowRefund": true,
         "allowKeyEntry": false,
         "allowMoto": false,
-        "acqTheme": ""
+        "acqTheme": "mint"
       },
       {
         "acqIndetifier": "026",
@@ -138,7 +138,7 @@
     "localSaleEnabled": true,
     "isManualAcquirerSelection": false,
     "preAuthEnabled": true,
-    "unattendedMode": true,
+    "unattendedMode": false,
     "slaveDeviceEnabled": false,
     "mdbManagerEnabled": false,
     "mdbCreditsAvailable": 0,
