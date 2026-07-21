@@ -18,23 +18,23 @@
   "multiAcq": {
     "acquirers" : [ 
       {
-       "acqIndetifier" : "014",
-       "acqName" : "Nexi",
-       "allowLocal" : true,
-       "allowRefund" : true,
-       "allowKeyEntry" : true,
-       "allowMoto" : true,
-       "acqTheme" : ""
+        "acqIndetifier" : "014",
+        "acqName" : "Nexi",
+        "allowLocal" : true,
+        "allowRefund" : true,
+        "allowKeyEntry" : true,
+        "allowMoto" : true,
+        "acqTheme" : ""
       }, 
       {
-       "acqIndetifier" : "026",
-       "acqName" : "WORLDLINE",
-       "allowLocal" : true,
-       "allowRefund" : true,
-       "allowKeyEntry" : true,
-       "allowMoto" : true,
-       "acqTheme" : "",
-       "allowIris" : true
+        "acqIndetifier" : "026",
+        "acqName" : "WORLDLINE",
+        "allowLocal" : true,
+        "allowRefund" : true,
+        "allowKeyEntry" : true,
+        "allowMoto" : true,
+        "acqTheme" : "",
+        "allowIris" : true
       }
     ]
   },
