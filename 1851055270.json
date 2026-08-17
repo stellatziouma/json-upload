@@ -40,7 +40,7 @@
         "acqName": "NBG",
         "allowLocal": true,
         "allowRefund": false,
-        "allowKeyEntry": false,
+        "allowKeyEntry": true,
         "allowMoto": false
       },
       {
