@@ -22,7 +22,7 @@
         "acqName": "ALPHA BANK",
         "allowLocal": false,
         "allowRefund": true,
-        "allowKeyEntry": false,
+        "allowKeyEntry": true,
         "allowMoto": false,
         "acqTheme": "possible"
       },
