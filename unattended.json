@@ -86,7 +86,7 @@
     "refundValidationEnabled" : false,
     "localSaleEnabled" : false,
     "isManualAcquirerSelection" : false,
-    "preAuthEnabled" : true,
+    "preAuthEnabled" : false,
     "unattendedMode" : true,
     "slaveDeviceEnabled" : false,
     "mdbManagerEnabled" : false,
